@@ -109,38 +109,38 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&kp F1     &kp Q  &kp W  &kp F     &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SQT   &kp LA(A)
-&kp LSHFT  &kp A  &kp R  &kp S     &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &au
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp SEMI  &ou
-                         &kp LGUI  &mo 2  &kp LSHFT    &kp SPACE  &mo 1  &kp RALT
+&none  &kp Q  &kp W  &kp F   &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SQT   &kp LA(A)
+&none  &kp A  &kp R  &kp S   &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &au
+&none  &kp Z  &kp X  &kp C   &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp SEMI  &ou
+                     &kp F1  &mo 2  &kp LSHFT    &kp SPACE  &mo 1  &kp ENTER
             >;
         };
 
         sym_layer {
             display-name = "Sym";
             bindings = <
-&kp F1     &kp ESC    &kp LBKT   &kp LBRC   &kp LPAR   &kp TILDE    &kp CARET  &kp RPAR  &kp RBRC  &kp RBKT   &kp GRAVE       &trans
-&trans     &kp MINUS  &kp ASTRK  &kp EQUAL  &kp UNDER  &kp DLLR     &kp HASH   &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &trans
-&kp LCTRL  &kp PLUS   &kp PIPE   &kp AT     &kp SLASH  &kp PRCNT    &trans     &kp BSLH  &kp AMPS  &kp QMARK  &kp EXCL        &trans
-                                 &trans     &trans     &trans       &trans     &trans    &trans
+&none  &kp ESC    &kp LBKT   &kp LBRC   &kp LPAR   &kp TILDE    &kp CARET  &kp RPAR  &kp RBRC  &kp RBKT   &kp GRAVE       &none
+&none  &kp MINUS  &kp ASTRK  &kp EQUAL  &kp UNDER  &kp DLLR     &kp HASH   &sk LGUI  &sk LALT  &sk LCTRL  &sk LEFT_SHIFT  &none
+&none  &kp PLUS   &kp PIPE   &kp AT     &kp SLASH  &kp PRCNT    &none      &kp BSLH  &kp AMPS  &kp QMARK  &kp EXCL        &none
+                             &trans     &trans     &trans       &trans     &trans    &trans
             >;
         };
 
         nav_layer {
             display-name = "Nav";
             bindings = <
-&kp F1     &kp LG(GRAVE)   &kp LS(TAB)  &kp TAB     &kp LG(TAB)  &kp C_VOL_UP        &trans        &kp HOME     &kp UP         &kp END    &kp DEL        &bt BT_CLR
-&trans     &kp LEFT_SHIFT  &kp LCTRL    &kp LALT    &kp LGUI     &kp C_VOL_DN        &kp CAPSLOCK  &kp LEFT     &kp DOWN       &kp RIGHT  &kp BACKSPACE  &bt BT_SEL 0
-&kp LCTRL  &kp SPACE       &trans       &kp C_PREV  &kp C_NEXT   &kp C_PLAY_PAUSE    &caps_word    &kp PAGE_UP  &kp PAGE_DOWN  &trans     &kp ENTER      &bt BT_SEL 1
-                                        &trans      &trans       &trans              &trans        &trans       &trans
+&none       &kp ESC         &kp LS(TAB)   &kp TAB     &kp LG(TAB)  &kp LG(GRAVE)       &none         &kp HOME     &kp UP         &kp END    &kp DEL        &bt BT_CLR
+&none       &sk LEFT_SHIFT  &sk LCTRL     &sk LALT    &sk LGUI     &none               &kp CAPSLOCK  &kp LEFT     &kp DOWN       &kp RIGHT  &kp BACKSPACE  &bt BT_SEL 0
+&kp C_MUTE  &kp C_VOL_DN    &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT   &kp C_PLAY_PAUSE    &caps_word    &kp PAGE_UP  &kp PAGE_DOWN  &none      &kp LC(SPACE)  &bt BT_SEL 1
+                                          &trans      &trans       &trans              &trans        &trans       &trans
             >;
         };
 
         num_layer {
             display-name = "Num";
             bindings = <
-&kp F1  &kp N1          &kp N2     &kp N3    &kp N4    &kp N5    &kp N6  &kp N7    &kp N8    &kp N9     &kp N0          &tog 4
-&trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans    &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &none
+&none   &kp N1          &kp N2     &kp N3    &kp N4    &kp N5    &kp N6  &kp N7    &kp N8    &kp N9     &kp N0          &tog 4
+&none   &sk LEFT_SHIFT  &sk LCTRL  &sk LALT  &sk LGUI  &none     &none   &sk LGUI  &sk LALT  &sk LCTRL  &sk LEFT_SHIFT  &none
 &kp F1  &kp F2          &kp F3     &kp F4    &kp F5    &kp F6    &kp F7  &kp F8    &kp F9    &kp F10    &kp F11         &kp F12
                                    &trans    &trans    &trans    &trans  &trans    &trans
             >;

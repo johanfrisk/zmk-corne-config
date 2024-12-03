@@ -31,7 +31,6 @@ This layout prioritizes:
 
 - Primary typing layer with Colemak layout
 - Dedicated Swedish character keys
-- Strategic placement of layer-switch keys
 
 ### Symbols Layer
 
