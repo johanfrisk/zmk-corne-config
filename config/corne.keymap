@@ -142,7 +142,7 @@
             display-name = "Nav";
             bindings = <
 &none       &kp ESC            &kp LS(TAB)        &kp TAB          &kp LG(TAB)      &kp LG(GRAVE)       &none         &kp HOME     &kp UP         &kp END    &kp DEL        &bt BT_CLR
-&trans      &skot LSHFT LSHFT  &skot LCTRL LCTRL  &skot LALT LALT  &skot LGUI LGUI  &none               &kp CAPSLOCK  &kp LEFT     &kp DOWN       &kp RIGHT  &kp BACKSPACE  &bt BT_SEL 0
+&trans      &skot LSHFT LSHFT  &skot LCTRL LCTRL  &skot LALT LALT  &skot LGUI LGUI  &kp SPACE           &kp CAPSLOCK  &kp LEFT     &kp DOWN       &kp RIGHT  &kp BACKSPACE  &bt BT_SEL 0
 &kp C_MUTE  &kp C_VOL_DN       &kp C_VOL_UP       &kp C_PREV       &kp C_NEXT       &kp C_PLAY_PAUSE    &caps_word    &kp PAGE_UP  &kp PAGE_DOWN  &none      &kp LC(SPACE)  &bt BT_SEL 1
                                                   &trans           &trans           &trans              &trans        &trans       &trans
             >;
