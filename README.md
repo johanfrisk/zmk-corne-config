@@ -1,4 +1,4 @@
-# Erik's Wireless Corne Keyboard Layout
+# Johan's Wireless Corne Keyboard Layout
 
 A [ZMK](https://zmk.dev/)-powered layout for a wireless 6-column Corne keyboard with
 [nice!view displays](https://nicekeyboards.com/nice-view/), optimized for macOS with
